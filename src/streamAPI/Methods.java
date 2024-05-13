@@ -7,6 +7,8 @@ public class Methods {
     public static void main(String[] args) {
 
         // filter, stream ke har object pr iterate krega and check krega ki vo particular object predicate function ko true return kr rha hai ya false. If true then it filters the object else it doen not.
+        // These operations are always lazy i.e, executing an intermediate operation such as filter() does not actually perform any filtering, but instead creates a new stream that, when traversed,
+        // contains the elements of the initial stream that match the given predicate.
 
         // map is used to iterate all objects and perform some task like squaring all integer and returning the object
 

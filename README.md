@@ -1,5 +1,5 @@
 Sequence of reading-:
-lambda &rarr; streamAPI &rarr; defaultAndStatic &rarr; methodReferences
+lambda &rarr; streamAPI &rarr; defaultAndStatic &rarr; methodReferences &rarr; Optional class
 
 Java has forever remained an Object-Oriented Programming languageThere are no solely functions present in a programming language called Java. Functions in the Java programming language are part of a class, and if someone wants to use them, they have to use the class or object of the class to call any function.  
 From Java 8 onwards, lambda expressions can be used to represent the instance of a functional interface(Interface with one abstract method and any number of default and static methods)  
